@@ -1,0 +1,13 @@
+PREFIX fin: <https://example.org/finance/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?period ?value ?unit ?source
+WHERE {
+  ?observation a fin:ReportedObservation ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:revenue ;
+    fin:period ?period ;
+    fin:value ?value ;
+    fin:unit ?unit ;
+    prov:wasDerivedFrom ?source .
+}
+ORDER BY ?period

@@ -1,0 +1,8 @@
+[
+  {
+    "path": "data/raw/companyfacts.json",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+    "retrieved_at": "2026-09-26T16:01:09.277947+00:00"
+  }
+]

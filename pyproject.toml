@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nvidia-research-lab"
+version = "0.1.0"
+description = "Learn financial ontologies through reproducible NVIDIA research"
+requires-python = ">=3.11"
+dependencies = ["rdflib==7.6.0"]
+
+[project.scripts]
+nvidia-research = "nvidia_research.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

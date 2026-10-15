@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fy2025-management",
+    "year": 2025,
+    "kind": "manually_reviewed_management_paraphrase",
+    "text": "Management attributes growth to demand for Hopper-based AI computing. A larger Data Center revenue share improved gross margin; workforce and development spending increased operating expenses. Higher revenue supported operating cash flow.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+    "locator": "Item 7: Fiscal Year 2025 Summary; Gross Profit and Gross Margin; Liquidity and Capital Resources",
+    "published": "2025-02-26"
+  },
+  {
+    "id": "fy2026-management",
+    "year": 2026,
+    "kind": "manually_reviewed_management_paraphrase",
+    "text": "Management links revenue growth to AI infrastructure demand. The Blackwell systems transition and H20 inventory charges reduced gross margin. Compensation and infrastructure spending increased operating expenses. Management attributes higher operating cash flow to higher revenue.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "locator": "Item 7: Fiscal Year 2026 Summary; Gross Profit and Gross Margin; Liquidity and Capital Resources",
+    "published": "2026-02-25"
+  }
+]

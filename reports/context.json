@@ -1,0 +1,182 @@
+{
+  "question": "How did NVIDIA revenue, operating margin and operating cash flow change across FY2024\u2013FY2026?",
+  "as_of": "2026-09-26",
+  "basis": "Annual comparatives in the pinned FY2026 filing, not historical backtesting",
+  "source_snapshot_sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+  "reported_observations": [
+    {
+      "id": "fy2024-revenue",
+      "year": 2024,
+      "metric": "revenue",
+      "tag": "us-gaap:Revenues",
+      "value": "60922000000",
+      "unit": "USD",
+      "start": "2023-01-30",
+      "end": "2024-01-28",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2024-operating_income",
+      "year": 2024,
+      "metric": "operating_income",
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "value": "32972000000",
+      "unit": "USD",
+      "start": "2023-01-30",
+      "end": "2024-01-28",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2024-operating_cash_flow",
+      "year": 2024,
+      "metric": "operating_cash_flow",
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "value": "28090000000",
+      "unit": "USD",
+      "start": "2023-01-30",
+      "end": "2024-01-28",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2025-revenue",
+      "year": 2025,
+      "metric": "revenue",
+      "tag": "us-gaap:Revenues",
+      "value": "130497000000",
+      "unit": "USD",
+      "start": "2024-01-29",
+      "end": "2025-01-26",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2025-operating_income",
+      "year": 2025,
+      "metric": "operating_income",
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "value": "81453000000",
+      "unit": "USD",
+      "start": "2024-01-29",
+      "end": "2025-01-26",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2025-operating_cash_flow",
+      "year": 2025,
+      "metric": "operating_cash_flow",
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "value": "64089000000",
+      "unit": "USD",
+      "start": "2024-01-29",
+      "end": "2025-01-26",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2026-revenue",
+      "year": 2026,
+      "metric": "revenue",
+      "tag": "us-gaap:Revenues",
+      "value": "215938000000",
+      "unit": "USD",
+      "start": "2025-01-27",
+      "end": "2026-01-25",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2026-operating_income",
+      "year": 2026,
+      "metric": "operating_income",
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "value": "130387000000",
+      "unit": "USD",
+      "start": "2025-01-27",
+      "end": "2026-01-25",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "id": "fy2026-operating_cash_flow",
+      "year": 2026,
+      "metric": "operating_cash_flow",
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "value": "102718000000",
+      "unit": "USD",
+      "start": "2025-01-27",
+      "end": "2026-01-25",
+      "filed": "2026-02-25",
+      "accession": "0001045810-26-000021",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    }
+  ],
+  "calculated_annual_results": [
+    {
+      "year": 2024,
+      "start": "2023-01-30",
+      "end": "2024-01-28",
+      "revenue": "60922000000",
+      "operating_income": "32972000000",
+      "operating_cash_flow": "28090000000",
+      "operating_margin": "54.12166376678375627852007485",
+      "revenue_growth": null
+    },
+    {
+      "year": 2025,
+      "start": "2024-01-29",
+      "end": "2025-01-26",
+      "revenue": "130497000000",
+      "operating_income": "81453000000",
+      "operating_cash_flow": "64089000000",
+      "operating_margin": "62.41752683969746430952435688",
+      "revenue_growth": "114.2034076359935655428252520"
+    },
+    {
+      "year": 2026,
+      "start": "2025-01-27",
+      "end": "2026-01-25",
+      "revenue": "215938000000",
+      "operating_income": "130387000000",
+      "operating_cash_flow": "102718000000",
+      "operating_margin": "60.38168363141272031786901796",
+      "revenue_growth": "65.47353579009479145114447075"
+    }
+  ],
+  "management_explanations": [
+    {
+      "id": "fy2025-management",
+      "year": 2025,
+      "kind": "manually_reviewed_management_paraphrase",
+      "text": "Management attributes growth to demand for Hopper-based AI computing. A larger Data Center revenue share improved gross margin; workforce and development spending increased operating expenses. Higher revenue supported operating cash flow.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+      "locator": "Item 7: Fiscal Year 2025 Summary; Gross Profit and Gross Margin; Liquidity and Capital Resources",
+      "published": "2025-02-26"
+    },
+    {
+      "id": "fy2026-management",
+      "year": 2026,
+      "kind": "manually_reviewed_management_paraphrase",
+      "text": "Management links revenue growth to AI infrastructure demand. The Blackwell systems transition and H20 inventory charges reduced gross margin. Compensation and infrastructure spending increased operating expenses. Management attributes higher operating cash flow to higher revenue.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "locator": "Item 7: Fiscal Year 2026 Summary; Gross Profit and Gross Margin; Liquidity and Capital Resources",
+      "published": "2026-02-25"
+    }
+  ],
+  "limitations": [
+    "Commentary is manually curated, not automatically extracted.",
+    "No causal or investment-return prediction.",
+    "FY2027 quarters are not included."
+  ]
+}

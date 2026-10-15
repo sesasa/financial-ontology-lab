@@ -1,0 +1,177 @@
+@prefix fin: <https://example.org/finance/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fin:Company a rdfs:Class .
+
+fin:DerivedObservation a rdfs:Class ;
+    rdfs:subClassOf fin:Observation .
+
+fin:Filing a rdfs:Class .
+
+fin:FiscalPeriod a rdfs:Class .
+
+fin:ManagementExplanation a rdfs:Class .
+
+fin:Metric a rdfs:Class .
+
+fin:Observation a rdfs:Class .
+
+fin:ReportedObservation a rdfs:Class ;
+    rdfs:subClassOf fin:Observation .
+
+fin:Security a rdfs:Class .
+
+fin:NVDA a fin:Security ;
+    fin:issuedBy fin:NVIDIA .
+
+fin:fy2024-operating_cash_flow a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:operating_cash_flow ;
+    fin:period fin:FY2024 ;
+    fin:unit "USD" ;
+    fin:value 28090000000.0 .
+
+fin:fy2024-operating_margin a fin:DerivedObservation ;
+    prov:wasDerivedFrom fin:fy2024-operating_income,
+        fin:fy2024-revenue ;
+    fin:company fin:NVIDIA ;
+    fin:formula "100 * operating_income / revenue" ;
+    fin:metric fin:operating_margin ;
+    fin:period fin:FY2024 ;
+    fin:unit "percent" ;
+    fin:value 54.12166376678375627852007485 .
+
+fin:fy2025-management a fin:ManagementExplanation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm> ;
+    fin:evidenceKind "manually_reviewed_management_paraphrase" ;
+    fin:locator "Item 7: Fiscal Year 2025 Summary; Gross Profit and Gross Margin; Liquidity and Capital Resources" ;
+    fin:period fin:FY2025 ;
+    fin:text "Management attributes growth to demand for Hopper-based AI computing. A larger Data Center revenue share improved gross margin; workforce and development spending increased operating expenses. Higher revenue supported operating cash flow." .
+
+fin:fy2025-operating_cash_flow a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:operating_cash_flow ;
+    fin:period fin:FY2025 ;
+    fin:unit "USD" ;
+    fin:value 64089000000.0 .
+
+fin:fy2025-operating_margin a fin:DerivedObservation ;
+    prov:wasDerivedFrom fin:fy2025-operating_income,
+        fin:fy2025-revenue ;
+    fin:company fin:NVIDIA ;
+    fin:formula "100 * operating_income / revenue" ;
+    fin:metric fin:operating_margin ;
+    fin:period fin:FY2025 ;
+    fin:unit "percent" ;
+    fin:value 62.41752683969746430952435688 .
+
+fin:fy2026-management a fin:ManagementExplanation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:evidenceKind "manually_reviewed_management_paraphrase" ;
+    fin:locator "Item 7: Fiscal Year 2026 Summary; Gross Profit and Gross Margin; Liquidity and Capital Resources" ;
+    fin:period fin:FY2026 ;
+    fin:text "Management links revenue growth to AI infrastructure demand. The Blackwell systems transition and H20 inventory charges reduced gross margin. Compensation and infrastructure spending increased operating expenses. Management attributes higher operating cash flow to higher revenue." .
+
+fin:fy2026-operating_cash_flow a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:operating_cash_flow ;
+    fin:period fin:FY2026 ;
+    fin:unit "USD" ;
+    fin:value 102718000000.0 .
+
+fin:fy2026-operating_margin a fin:DerivedObservation ;
+    prov:wasDerivedFrom fin:fy2026-operating_income,
+        fin:fy2026-revenue ;
+    fin:company fin:NVIDIA ;
+    fin:formula "100 * operating_income / revenue" ;
+    fin:metric fin:operating_margin ;
+    fin:period fin:FY2026 ;
+    fin:unit "percent" ;
+    fin:value 60.38168363141272031786901796 .
+
+fin:fy2024-operating_income a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:operating_income ;
+    fin:period fin:FY2024 ;
+    fin:unit "USD" ;
+    fin:value 32972000000.0 .
+
+fin:fy2024-revenue a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:revenue ;
+    fin:period fin:FY2024 ;
+    fin:unit "USD" ;
+    fin:value 60922000000.0 .
+
+fin:fy2025-operating_income a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:operating_income ;
+    fin:period fin:FY2025 ;
+    fin:unit "USD" ;
+    fin:value 81453000000.0 .
+
+fin:fy2025-revenue a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:revenue ;
+    fin:period fin:FY2025 ;
+    fin:unit "USD" ;
+    fin:value 130497000000.0 .
+
+fin:fy2026-operating_income a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:operating_income ;
+    fin:period fin:FY2026 ;
+    fin:unit "USD" ;
+    fin:value 130387000000.0 .
+
+fin:fy2026-revenue a fin:ReportedObservation ;
+    prov:wasDerivedFrom <https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> ;
+    fin:company fin:NVIDIA ;
+    fin:metric fin:revenue ;
+    fin:period fin:FY2026 ;
+    fin:unit "USD" ;
+    fin:value 215938000000.0 .
+
+<https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm> a fin:Filing ;
+    fin:published "2025-02-26"^^xsd:date .
+
+fin:operating_cash_flow a fin:Metric ;
+    fin:xbrlTag "us-gaap:NetCashProvidedByUsedInOperatingActivities" .
+
+fin:operating_income a fin:Metric ;
+    fin:xbrlTag "us-gaap:OperatingIncomeLoss" .
+
+fin:operating_margin a fin:Metric .
+
+fin:revenue a fin:Metric ;
+    fin:xbrlTag "us-gaap:Revenues" .
+
+fin:FY2024 a fin:FiscalPeriod ;
+    fin:end "2024-01-28"^^xsd:date ;
+    fin:start "2023-01-30"^^xsd:date .
+
+fin:FY2025 a fin:FiscalPeriod ;
+    fin:end "2025-01-26"^^xsd:date ;
+    fin:start "2024-01-29"^^xsd:date .
+
+fin:FY2026 a fin:FiscalPeriod ;
+    fin:end "2026-01-25"^^xsd:date ;
+    fin:start "2025-01-27"^^xsd:date .
+
+<https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm> a fin:Filing ;
+    fin:accession "0001045810-26-000021" ;
+    fin:published "2026-02-25"^^xsd:date .
+
+fin:NVIDIA a fin:Company ;
+    rdfs:label "NVIDIA Corporation" .
+
