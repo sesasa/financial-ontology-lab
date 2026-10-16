@@ -10,7 +10,7 @@
 - Look-ahead-safe research cutoffs. The arithmetic is deterministic Decimal, and no LLM performs calculations.
 - Produces `context.json`, a grounded context packet for agent / GraphRAG workflows, plus HTML and Markdown reports.
 
-**Built with** an AI coding agent in a staged, lesson-by-lesson workflow (see [`docs/project-roadmap.md`](docs/project-roadmap.md)). Stack: Python, RDFLib, SPARQL and the SEC Company Facts API.
+**Built with OpenAI Codex**, with Claude Code consulted for review, in a staged, lesson-by-lesson workflow (see [`docs/project-roadmap.md`](docs/project-roadmap.md)). Stack: Python, RDFLib, SPARQL and the SEC Company Facts API.
 
 ---
 
